@@ -3,16 +3,32 @@ body {
   margin: 0;
 }
 .header {
-    display: block; 
-    padding: 10px;
-    background-color: rgba(33, 143, 0, 0.726);
+  display: block;
+  padding: 10px;
+  background-color: rgba(33, 143, 0, 0.726);
+  width: 100%;
+}
+.header img {
+  display: block;
+  padding: 10px 0px;
+}
+.header a,
+.form a,
+.right a,
+.footer a {
+  text-decoration: none;
+}
+.container {
+  max-width: 768px;
+  margin: auto;
+}
+.form {
+  display: inline-grid;
+}
+.footer{
     width: 100%;
-  }
-.header img{
-    display: block;
-    padding: 10px 0px;
+    background-color: blueviolet;
+    position:relative;
+    justify-content: center;
+    align-items: center;
 }
-.header a{
-    text-decoration: none;
-}
-
