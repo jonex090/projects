@@ -1,3 +1,31 @@
-body{
-    background-color: #d6e2f0;
+body {
+  background-color: #d6e2f0;
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  background-color: #ffffff;
+  width: auto;
+  border-radius: 10px;
+  max-width: 350px;
+}
+img {
+  background-color: #2b7dfb;
+  border-radius: 10px;
+  padding: 70px;
+}
+
+h3 {
+  color: #1e3251;
+  padding: 10px;
+}
+p {
+  color: #7b879d;
 }
