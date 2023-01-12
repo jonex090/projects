@@ -56,6 +56,9 @@ button{
 .right{
   padding: 30px 0;
 }
+.right img{
+  max-width: 100%;
+}
 .footer{
     width: 100%;
     background-color: blueviolet;
