@@ -22,9 +22,13 @@ body {
   max-width: 768px;
   margin: auto;
 }
+.left{
+  padding-right: 20px;
+}
 .left h1 {
   color: rgb(68, 66, 87);
   font-weight: bolder;
+  
 }
 a {
   color: rgb(31, 108, 224);
@@ -33,6 +37,7 @@ a {
 .form {
   display: flex;
   flex-direction: column;
+ 
 }
 .form a {
   padding: 5px 0;
@@ -57,9 +62,7 @@ button {
 .right {
   padding: 30px 0;
 }
-.right img {
-  max-width: 100%;
-}
+
 .footer {
   width: 100%;
   background-color: blueviolet;
@@ -67,7 +70,14 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position:relative;
+  height: 10vh;
   bottom: 0;
   padding-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    margin: auto;
+  }
 }
