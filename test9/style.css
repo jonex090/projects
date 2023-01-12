@@ -12,20 +12,25 @@ body {
   padding: 20px;
   margin: auto;
   background-color: #ffffff;
-  width: auto;
   border-radius: 10px;
-  max-width: 350px;
+  max-width: 360px;
 }
 img {
   background-color: #2b7dfb;
   border-radius: 10px;
   padding: 70px;
 }
-
-h3 {
+.text {
+    padding: 7px;
+    line-height: 1.5;
+}
+h2 {
   color: #1e3251;
-  padding: 10px;
+  text-align: center;
 }
 p {
   color: #7b879d;
+  text-align: center;
+  font-size: 18px;
+
 }
