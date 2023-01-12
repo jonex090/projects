@@ -1,16 +1,15 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif, serif;
 }
 .header {
   display: block;
-  padding: 10px;
-  background-color: rgba(33, 143, 0, 0.726);
   width: 100%;
 }
-.header img {
+.header img, .header a {
   display: block;
-  padding: 10px 0px;
+  padding: 5px 10px;
 }
 .header a,
 .form a,
@@ -22,13 +21,49 @@ body {
   max-width: 768px;
   margin: auto;
 }
+.left h1{
+  color:rgb(68, 66, 87);
+  font-weight: bolder;
+}
+a{
+  color:rgb(31, 108, 224);
+  font-weight:600;
+  }
 .form {
-  display: inline-grid;
+  display: flex;
+  flex-direction: column;
+}
+.form a{
+  padding: 5px 0;
+}
+button{
+  background-color: green;
+  border: 1px;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+  padding: 10px;
+  width: 50%;
+  color: white;
+}
+.input{
+  width: 25%;
+  padding: 10px;
+  border:rgb(173, 173, 173) solid 1px;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+.right{
+  padding: 30px 0;
 }
 .footer{
     width: 100%;
     background-color: blueviolet;
-    position:relative;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    bottom: 0;
+    padding-bottom: 20px;
 }
