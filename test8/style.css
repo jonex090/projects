@@ -7,7 +7,8 @@ body {
   display: block;
   width: 100%;
 }
-.header img, .header a {
+.header img,
+.header a {
   display: block;
   padding: 5px 10px;
 }
@@ -21,22 +22,22 @@ body {
   max-width: 768px;
   margin: auto;
 }
-.left h1{
-  color:rgb(68, 66, 87);
+.left h1 {
+  color: rgb(68, 66, 87);
   font-weight: bolder;
 }
-a{
-  color:rgb(31, 108, 224);
-  font-weight:600;
-  }
+a {
+  color: rgb(31, 108, 224);
+  font-weight: 600;
+}
 .form {
   display: flex;
   flex-direction: column;
 }
-.form a{
+.form a {
   padding: 5px 0;
 }
-button{
+button {
   background-color: green;
   border: 1px;
   border-radius: 5px;
@@ -46,27 +47,27 @@ button{
   width: 50%;
   color: white;
 }
-.input{
+.input {
   width: 25%;
   padding: 10px;
-  border:rgb(173, 173, 173) solid 1px;
+  border: rgb(173, 173, 173) solid 1px;
   border-radius: 3px;
   margin: 10px 0;
 }
-.right{
+.right {
   padding: 30px 0;
 }
-.right img{
+.right img {
   max-width: 100%;
 }
-.footer{
-    width: 100%;
-    background-color: blueviolet;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: 0;
-    padding-bottom: 20px;
+.footer {
+  width: 100%;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  padding-bottom: 20px;
 }
