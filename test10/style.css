@@ -10,6 +10,10 @@ body {
   margin: 0;
   max-width: 768;
 }
+main{
+    width: auto;
+    margin:20px;
+}
 .navbar {
   text-align: center;
 }
@@ -78,7 +82,7 @@ body {
   background-color: white;
   border: 1px solid rgba(90, 90, 90, 0.384);
   border-radius: 5px;
-  padding: 10px 70px;
+  padding: 15px 70px;
   color: #316098;
   font-weight: bolder;
 }
@@ -86,7 +90,7 @@ body {
   border-radius: 10px;
   text-align: center;
   padding: 20px 50px;
-  background-color: white;
+  background-color: rgb(158, 158, 158);
 }
 .right h1{
     font-size: 42px;
@@ -96,6 +100,14 @@ body {
 .right p{
     font-weight: bold;
 }
+.right button {
+    background-color:#6e5fea;
+    border: 1px solid rgba(90, 90, 90, 0.384);
+    border-radius: 5px;
+    padding: 15px 70px;
+    color: #ffffff;
+    font-weight: bolder;
+  }
 .paid{
     display: flex;
     justify-content:center ;
