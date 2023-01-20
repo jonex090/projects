@@ -123,7 +123,7 @@ body {
   }
   .menu a {
     text-decoration: none;
-    color:white;
+    color: white;
   }
   .menu > li {
     display: flex;
@@ -152,45 +152,109 @@ body {
 .menu > li button:hover {
   background-color: #4497e7;
 }
-.container{
-    max-width: 768px;
-    margin: 50px;
+.container {
+  max-width: 768px;
+  margin: 50px;
+
+}
+.left {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  padding: 50px 0px;
+  border-radius: 10px;
+  background-color: white;
+  margin: 0px 20px;
+}
+.left p,
+li,
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.right {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  background-color: white;
+    object-position: 10px;
+  padding: 50px 0px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(71, 71, 71);
+}
+.right p,
+li,
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.paid{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding: 25px 0px;
+}
+.paid p{
+    padding: 0px 15px;
+}
+/* POCETOK NA KODOT ZA KOPCETO ZA PAID VERZIJA*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 5px;
+    bottom: 5px;
     background-color: white;
-    border-radius: 10px;
-}
-.left{
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-    padding: 50px 0px;
-    
-}
-.left p, li, h1{
-    display: flex;
-    justify-content: center;
-}
-.right{
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-    padding: 50px 0px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgb(71, 71, 71);
-}
-.right p, li, h1{
-    display: flex;
-    justify-content: center;
-}
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  input:checked + .slider {
+    background-color: #2196f3;
+  }
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196f3;
+  }
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  /* KRAJ NA KODOT*/
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 30px;
   background: linear-gradient(
-      90deg,
-      rgba(113, 72, 252, 1) 0%,
-      rgba(75, 171, 248, 1) 100%
-    );
+    90deg,
+    rgba(113, 72, 252, 1) 0%,
+    rgba(75, 171, 248, 1) 100%
+  );
 }
 footer a {
   display: flex;
