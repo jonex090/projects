@@ -152,11 +152,40 @@ body {
 .menu > li button:hover {
   background-color: #4497e7;
 }
+.container{
+    max-width: 768px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+.left{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    padding: 50px 0px;
+    
+}
+.left p, li, h1{
+    display: flex;
+    justify-content: center;
+}
+.right{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    padding: 50px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(71, 71, 71);
+}
+.right p, li, h1{
+    display: flex;
+    justify-content: center;
+}
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 30px;
   background: linear-gradient(
       90deg,
       rgba(113, 72, 252, 1) 0%,
