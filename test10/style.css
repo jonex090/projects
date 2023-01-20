@@ -317,3 +317,23 @@ footer a {
   justify-content: center;
   color: white;
 }
+@media only screen and (min-width: 768px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 0;
+    }
+    .top-nav a{
+        text-decoration: none;
+        color: white;
+    }
+    .left{
+        margin:0;
+        padding: 30px 100px;
+    }
+    .right{
+        padding: 30px 150px;
+    }
+}
