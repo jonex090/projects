@@ -1,34 +1,86 @@
+$myfont: Helvetica, Sans-Serif;
+$mywidth: 768px;
+$navcolor: whitesmoke;
+$botchatcolor: whitesmoke;
+$button: rgba(30, 255, 0, 0.836);
+$colorbutton: white;
+
 body {
   background-color: rgba(0, 0, 0, 0.473);
+  font-family: $myfont;
+  margin: auto;
+  padding: 20px 0px;
 }
 .container {
-  max-width: 768px;
+  max-width: $mywidth;
   margin: auto;
   background-color: white;
+  height: 90vh;
+  position: relative;
 }
 .nav {
   display: flex;
-    justify-content: space-between;
-  background-color: whitesmoke;
+  justify-content: space-between;
+  background-color: $navcolor;
 }
-.chat{
-    display: flex;
+.chat {
+  display: flex;
 }
-.main{
-    background-color: white;
+.main {
+  background-color: white;
 }
 .nav img {
-    padding: 15px 5px;
+  padding: 15px 10px;
 }
-.bot{
+.container-bot {
+  display: flex;
+  padding-top: 20px;
+}
+.under-bot {
+  padding: 0 5px;
+  background-color: $botchatcolor;
+  border-radius: 25px;
+}
+.name-time {
+  display: flex;
+  justify-content: space-between;
+}
+.main img {
+  padding: 10px 10px;
+}
+.container-avatar{
     display: flex;
-    padding-top: 20px;
 }
-.underbot{
-    padding: 0 5px;
-    background-color: whitesmoke;
+.under-avatar {
+    background-color: $botchatcolor;
     border-radius: 25px;
 }
-.main img{
-    padding: 10px 10px;
+.form {
+  position: absolute;
+  bottom: 0;
+  padding: 15px 10px;
+  background-color: $navcolor;
+  width: -webkit-fill-available;
+}
+form {
+  display: -webkit-flex;
+  width: 100%;
+  min-width: 300px;
+  max-width: 768px;
+}
+ input[type="text"] {
+  padding: 5px;
+  flex: auto;
+  -webkit-flex: 1;
+}
+
+.form input[type="submit"] {
+  background-color: $button;
+  color: $colorbutton;
+  border: 0;
+  border-radius: 3px;
+  padding: 8px 10px;
+}
+.avatar{
+    float: right;
 }
