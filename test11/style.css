@@ -91,4 +91,8 @@ input[type=text] {
 
 .avatar {
   float: right;
+}
+
+.under-avatar {
+  padding: 0 5px;
 }/*# sourceMappingURL=style.css.map */
