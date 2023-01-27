@@ -1,0 +1,34 @@
+body {
+  background-color: rgba(0, 0, 0, 0.473);
+}
+.container {
+  max-width: 768px;
+  margin: auto;
+  background-color: white;
+}
+.nav {
+  display: flex;
+    justify-content: space-between;
+  background-color: whitesmoke;
+}
+.chat{
+    display: flex;
+}
+.main{
+    background-color: white;
+}
+.nav img {
+    padding: 15px 5px;
+}
+.bot{
+    display: flex;
+    padding-top: 20px;
+}
+.underbot{
+    padding: 0 5px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+.main img{
+    padding: 10px 10px;
+}
