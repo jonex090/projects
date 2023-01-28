@@ -44,6 +44,7 @@ body {
 
 ol {
   list-style: none;
+  padding: 0px 10px;
 }
 
 .main img {
@@ -52,11 +53,6 @@ ol {
 
 .container-avatar {
   display: flex;
-}
-
-.under-avatar li {
-  display: flex;
-  justify-content: space-between;
 }
 
 .under-avatar {

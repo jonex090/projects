@@ -44,6 +44,7 @@ body {
 }
 ol{
   list-style: none;
+  padding: 0px 10px;
 }
 .main img {
   padding: 10px 10px;
@@ -51,12 +52,7 @@ ol{
 .container-avatar{
     display: flex;
 }
-.under-avatar{
-  li{
-    display: flex;
-    justify-content: space-between;
-  }
-}
+
 .under-avatar {
     background-color: $avatarchatcolor;
     border-radius: 25px;
