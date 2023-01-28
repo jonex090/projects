@@ -4,6 +4,7 @@ $navcolor: whitesmoke;
 $botchatcolor: whitesmoke;
 $button: rgba(30, 255, 0, 0.836);
 $colorbutton: white;
+$avatarchatcolor: rgba(49, 134, 245, 0.842);
 
 body {
   background-color: rgba(0, 0, 0, 0.473);
@@ -34,16 +35,15 @@ body {
 }
 .container-bot {
   display: flex;
-  padding-top: 20px;
+  padding: 10px 0px;
 }
 .under-bot {
   padding: 0 5px;
   background-color: $botchatcolor;
   border-radius: 25px;
 }
-.name-time {
-  display: flex;
-  justify-content: space-between;
+ol{
+  list-style: none;
 }
 .main img {
   padding: 10px 10px;
@@ -51,8 +51,14 @@ body {
 .container-avatar{
     display: flex;
 }
+.under-avatar{
+  li{
+    display: flex;
+    justify-content: space-between;
+  }
+}
 .under-avatar {
-    background-color: $botchatcolor;
+    background-color: $avatarchatcolor;
     border-radius: 25px;
 }
 .form {

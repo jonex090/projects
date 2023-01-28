@@ -33,7 +33,7 @@ body {
 
 .container-bot {
   display: flex;
-  padding-top: 20px;
+  padding: 10px 0px;
 }
 
 .under-bot {
@@ -42,9 +42,8 @@ body {
   border-radius: 25px;
 }
 
-.name-time {
-  display: flex;
-  justify-content: space-between;
+ol {
+  list-style: none;
 }
 
 .main img {
@@ -55,8 +54,13 @@ body {
   display: flex;
 }
 
+.under-avatar li {
+  display: flex;
+  justify-content: space-between;
+}
+
 .under-avatar {
-  background-color: whitesmoke;
+  background-color: rgba(49, 134, 245, 0.842);
   border-radius: 25px;
 }
 
