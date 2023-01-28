@@ -42,23 +42,28 @@ body {
   background-color: $botchatcolor;
   border-radius: 25px;
 }
-ol{
+ol {
   list-style: none;
   padding: 0px 5px;
 }
-li{
+li {
   padding: 10px 5px;
 }
 .main img {
   padding: 10px 10px;
 }
-.container-avatar{
-    display: flex;
+.container-avatar {
+  display: flex;
 }
 
 .under-avatar {
-    background-color: $avatarchatcolor;
-    border-radius: 25px;
+  background-color: $avatarchatcolor;
+  border-radius: 25px;
+  padding: 0 5px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
 }
 .form {
   position: absolute;
@@ -73,7 +78,7 @@ form {
   min-width: 300px;
   max-width: 768px;
 }
- input[type="text"] {
+input[type="text"] {
   padding: 5px;
   flex: auto;
   -webkit-flex: 1;
@@ -87,9 +92,6 @@ form {
   padding: 8px 10px;
   cursor: pointer;
 }
-.avatar{
-    float: right;
-}
-.under-avatar{
-    padding: 0 5px;
+.avatar {
+  float: right;
 }
