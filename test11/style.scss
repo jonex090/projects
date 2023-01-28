@@ -18,7 +18,6 @@ body {
   background-color: white;
   height: 90vh;
   position: relative;
-  overflow: scroll;
 }
 .nav {
   display: flex;
@@ -45,10 +44,10 @@ body {
 }
 ol{
   list-style: none;
-  padding: 0px 10px;
+  padding: 0px 5px;
 }
 li{
-  padding: 5px 0px;
+  padding: 10px 5px;
 }
 .main img {
   padding: 10px 10px;
