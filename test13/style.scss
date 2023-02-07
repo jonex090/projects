@@ -150,23 +150,30 @@ body {
 .for--place{
     display: flex;
     align-items: center;
+    border: 0px solid rgb(179, 179, 179);
     border: 1px solid rgb(179, 179, 179);
     li{
         list-style: none;
     }
     ul{
-        padding: 10px;
+        padding: 5px;
+        padding-right: 120px;
     }
-
+    img{
+        padding-left: 110px;
+        padding-right: 8px;
+    }
 }
 .place--points--li{
-    font-size: 24px;
+    font-size: 22px;
 }
 .place--li{
     font-size: 12px;
+    
 }
 .win--place{
     display: flex;
     align-items: center;
-   
+    justify-items: center;
+    
 }

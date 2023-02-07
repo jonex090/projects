@@ -156,17 +156,23 @@ body {
 .for--place {
   display: flex;
   align-items: center;
+  border: 0px solid rgb(179, 179, 179);
   border: 1px solid rgb(179, 179, 179);
 }
 .for--place li {
   list-style: none;
 }
 .for--place ul {
-  padding: 10px;
+  padding: 5px;
+  padding-right: 120px;
+}
+.for--place img {
+  padding-left: 110px;
+  padding-right: 8px;
 }
 
 .place--points--li {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .place--li {
@@ -176,4 +182,5 @@ body {
 .win--place {
   display: flex;
   align-items: center;
+  justify-items: center;
 }/*# sourceMappingURL=style.css.map */
