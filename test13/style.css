@@ -183,4 +183,42 @@ body {
   display: flex;
   align-items: center;
   justify-items: center;
+}
+
+/* RANKED AND MONTHLY RANKING CSS END HERE*/
+.container--table {
+  max-width: 1150px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+th {
+  background-color: #ebebeb;
+  text-transform: uppercase;
+}
+
+td {
+  color: dimgray;
+}
+td img {
+  float: right;
+}
+td ul {
+  list-style: none;
+  padding: 0;
+}
+td li {
+  color: #00aeff;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 15px 25px;
 }/*# sourceMappingURL=style.css.map */

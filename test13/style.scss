@@ -147,33 +147,65 @@ body {
     padding: 10px 10px;
   }
 }
-.for--place{
-    display: flex;
-    align-items: center;
-    border: 0px solid rgb(179, 179, 179);
-    border: 1px solid rgb(179, 179, 179);
-    li{
-        list-style: none;
-    }
-    ul{
-        padding: 5px;
-        padding-right: 120px;
-    }
-    img{
-        padding-left: 110px;
-        padding-right: 8px;
-    }
+.for--place {
+  display: flex;
+  align-items: center;
+  border: 0px solid rgb(179, 179, 179);
+  border: 1px solid rgb(179, 179, 179);
+  li {
+    list-style: none;
+  }
+  ul {
+    padding: 5px;
+    padding-right: 120px;
+  }
+  img {
+    padding-left: 110px;
+    padding-right: 8px;
+  }
 }
-.place--points--li{
-    font-size: 22px;
+.place--points--li {
+  font-size: 22px;
 }
-.place--li{
-    font-size: 12px;
-    
+.place--li {
+  font-size: 12px;
 }
-.win--place{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    
+.win--place {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+/* RANKED AND MONTHLY RANKING CSS END HERE*/
+.container--table {
+  max-width: 1150px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+th {
+  background-color: #ebebeb;
+  text-transform: uppercase;
+}
+td {
+  color: dimgray;
+  img{
+    float: right;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    color: #00aeff;
+  }
+}
+td,
+th {
+  text-align: left;
+  padding: 15px 25px;
 }
