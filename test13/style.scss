@@ -28,4 +28,19 @@ body{
     border: 0px;
     background-color: transparent;
     color: rgb(0, 214, 89);
+    cursor: pointer;
+}
+.container--left {
+    a,
+    input,
+    {
+        padding: 0px 15px;
+    }
+}
+.container--right{
+    p,
+    span,
+    button{
+        padding: 0px 15px;
+    }
 }

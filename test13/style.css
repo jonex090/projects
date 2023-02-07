@@ -31,4 +31,16 @@ body {
   border: 0px;
   background-color: transparent;
   color: rgb(0, 214, 89);
+  cursor: pointer;
+}
+
+.container--left a,
+.container--left input {
+  padding: 0px 15px;
+}
+
+.container--right p,
+.container--right span,
+.container--right button {
+  padding: 0px 15px;
 }/*# sourceMappingURL=style.css.map */
