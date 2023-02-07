@@ -1,13 +1,14 @@
 $bodybackground: rgb(211, 211, 211);
 body {
   background-color: $bodybackground;
+  font-family: Helvetica, Sans-Serif;
   margin: 0;
 }
 
 .container--nav {
   margin: auto;
   width: 100%;
-  max-width: 1024px;
+  max-width: 1150px;
   display: flex;
   justify-content: space-between;
 }
@@ -20,7 +21,7 @@ body {
   align-items: center;
 }
 .points {
-  background-color: rgb(0, 214, 89);
+  background-color: #00c0a8;
   border-radius: 20px;
   padding: 1px 10px;
   color: rgb(255, 255, 255);
@@ -28,7 +29,7 @@ body {
 .nav--button {
   border: 0px;
   background-color: transparent;
-  color: rgb(0, 214, 89);
+  color: #00c0a8;
   cursor: pointer;
 }
 .container--left {
@@ -67,3 +68,82 @@ body {
   }
 }
 /*      HEADER MENU         */
+.container {
+  max-width: 1150px;
+  margin: auto;
+}
+.container--ranks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container--button {
+  button {
+    padding: 7px 20px;
+    border: 0;
+    border-spacing: 0;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: rgba(155, 155, 155, 0.863);
+  }
+  display: inline-flex;
+}
+.container--ranks {
+  h1 {
+    font-weight: 100;
+  }
+}
+.horisontal-line {
+  border-top: 1px solid grey;
+}
+.monthly--ranking {
+  display: flex;
+  align-items: baseline;
+  a {
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+    padding: 0px 20px;
+  }
+}
+.container--monthly {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  button {
+    padding: 7px 20px;
+    border: 0;
+    border-spacing: 0;
+    cursor: pointer;
+  }
+}
+.win--point {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: white;
+  border: 1px solid rgb(179, 179, 179);
+  h1 {
+    font-weight: 100;
+  }
+  span {
+    color: #00c0a8;
+  }
+}
+.win-win {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  button {
+    padding: 5px 15px;
+    background-color: #00c0a8;
+    border: 1px solid rgba(0, 82, 0, 0.596);
+    border-radius: 3px;
+    color: white;
+  }
+  img,
+  p {
+    padding: 10px 10px;
+  }
+}
