@@ -1,4 +1,4 @@
-$bodybackground: rgb(211, 211, 211);
+$bodybackground: rgba(207, 207, 207, 0.486);
 body {
   background-color: $bodybackground;
   font-family: Helvetica, Sans-Serif;
@@ -127,10 +127,11 @@ body {
   h1 {
     font-weight: 100;
   }
-  span {
-    color: #00c0a8;
-  }
 }
+span {
+  color: #00c0a8;
+}
+
 .win-win {
   display: flex;
   align-items: center;
@@ -150,7 +151,6 @@ body {
 .for--place {
   display: flex;
   align-items: center;
-  border: 0px solid rgb(179, 179, 179);
   border: 1px solid rgb(179, 179, 179);
   li {
     list-style: none;
@@ -190,10 +190,25 @@ table {
 th {
   background-color: #ebebeb;
   text-transform: uppercase;
+  text-align: left;
+  padding: 15px 20px;
 }
+.number--padding{
+    padding-left: 30px;
+  }
+.number--color{
+    color: #00c0a8;
+    font-weight: 600;
+}
+
 td {
   color: dimgray;
-  img{
+  img {
+    float: left;
+    padding-right: 10px;
+  }
+
+  .left {
     float: right;
   }
   ul {
@@ -204,8 +219,67 @@ td {
     color: #00aeff;
   }
 }
-td,
-th {
+
+td {
   text-align: left;
-  padding: 15px 25px;
+  padding: 5px 20px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd48;
+}
+.date-color {
+  color: grey;
+  padding-top: 5px;
+}
+.container--less {
+  max-width: 1150px;
+  margin: auto;
+  h2 {
+    font-weight: 100;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+  }
+}
+.show {
+  padding: 30px 0px;
+}
+.win--place {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.winners {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  ul {
+    list-style: none;
+    padding: 0px 10px;
+  }
+}
+.solid {
+  padding: 5px 20px;
+  border: 1px solid rgb(179, 179, 179);
+  background-color: white;
+}
+.st-place {
+  display: flex;
+  align-items: center;
+  padding-right: 100px;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  ul {
+    padding: 0;
+  }
+  li {
+    padding: 2px 0px;
+  }
+  span {
+    font-weight: 600;
+  }
 }
